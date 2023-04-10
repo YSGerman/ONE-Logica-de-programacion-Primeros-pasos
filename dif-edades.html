@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE - Alura Latam - Diferencia de edades</title>
+  </head>
+  <body>
+    <script>
+      function imprimir(texto) {
+        document.write(texto);
+      }
+
+      function saltarLinea() {
+        document.write("<br>");
+      }
+
+      function dif_edad(edad1, edad2) {
+        imprimir(edad1 - edad2 + " años");
+      }
+      var edad1 = 26;
+      var edad2 = 16;
+
+      imprimir("Yo me llamo German y tengo " + edad1 + " años");
+      saltarLinea();
+      imprimir("Yo me llamo Angel y tengo " + edad2 + " años");
+      saltarLinea();
+      imprimir("Por lo que nuestra diferencia de edad es de:");
+      dif_edad(edad1, edad2);
+    </script>
+  </body>
+</html>

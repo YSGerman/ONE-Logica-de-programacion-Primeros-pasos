@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE - Alura Latam - Funciones</title>
+  </head>
+  <body>
+    <h1>Funciones</h1>
+
+    <script>
+      function saltarLinea() {
+        document.write("<br>");
+      }
+
+      var tanque = 40;
+      var gasolina = 480;
+      var consumoGasolina = gasolina / tanque;
+      var alcohol = 300;
+      var consumoAlcohol = alcohol / tanque;
+
+      document.write(
+        "El carro tiene una eficiencia de: " +
+          consumoGasolina +
+          " kilometros por litro, utilizando Gasolina <br> <br>"
+      );
+
+      saltarLinea();
+
+      document.write(
+        "El carro tiene una eficiencia de: " +
+          consumoAlcohol +
+          " kilometros por litro, utilizando Alcohol <br> <br>"
+      );
+      saltarLinea();
+    </script>
+  </body>
+</html>
